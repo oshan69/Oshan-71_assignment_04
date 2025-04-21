@@ -1,0 +1,130 @@
+.question-area {
+  padding: 100px 20px;
+  background-color: #f8f8fe;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1 1 60%;
+}
+
+.left h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.left p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 25px;
+  max-width: 500px;
+}
+
+/* Input Groups with floating labels */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-group label {
+  background-color: #e5d4ff;
+  color: #5a2ca0;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  z-index: 1;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 18px;
+  padding-top: 20px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  resize: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.input-group textarea {
+  height: 120px;
+}
+
+form button {
+  background-color: #fe814d;
+  color: white;
+  font-weight: bold;
+  padding: 13px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: fit-content;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #f26a35;
+}
+
+.right {
+  flex: 1 1 38%;
+  background-color: #e3d7fa;
+  padding: 30px 28px;
+  border-radius: 18px;
+}
+
+.right h3 {
+  font-size: 20px;
+  color: #8a4edd;
+  margin-bottom: 10px;
+}
+
+.right p {
+  font-size: 14px;
+  color: #5e5c5c;
+  margin-bottom: 25px;
+}
+
+.info-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.info-item img {
+  margin-top: 5px;
+  width: 22px;
+  height: 22px;
+  filter: brightness(0.2);
+}
+
+.info-item span {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.info-item p {
+  margin: 3px 0 0;
+  font-size: 14px;
+  color: #717171;
+}

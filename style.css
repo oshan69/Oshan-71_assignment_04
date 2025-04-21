@@ -1,0 +1,114 @@
+/* Container styling */
+.c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #f5f5f5;
+    gap: 3rem;
+  }
+  
+  /* Navigation menu */
+  .d {
+    display: flex !important; /* Bootstrap override */
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Each menu item */
+  .d li {
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav li:hover {
+    color: #007bff;
+  }
+  
+  /* Logo image */
+  img {
+    height: 30px;
+  }
+  
+  /* Get Started button */
+  button {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #df880e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+
+/* Wrapper to align items side by side */
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+    gap: 40px;
+    flex-wrap: wrap; /* mobile responsive */
+  }
+  
+  /* Left text part */
+  .e {
+    flex: 1;
+    min-width: 300px;
+    
+  }
+  
+  .f {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .g {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+  }
+  
+  .h {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .h:hover {
+    background-color: #caa229;
+  }
+  
+  /* Right image part */
+  .i {
+    flex: 1;
+    text-align: right;
+    min-width: 100px;
+    
+  }
+  
+  .i img {
+    width: 30rem;
+    height: auto;
+    border-radius: 3px;
+    
+  }
