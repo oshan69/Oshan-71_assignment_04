@@ -1,293 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 
-    -- link favicon image -->
-    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
-    <title>Hotel Booking</title>
-    <!-- 
-    -- link custom css file -->
-    <link rel="stylesheet" href="stylesd.css">
-    <link rel="stylesheet" href="./mobile-view.css">
-    <link rel="stylesheet" href="./tablet-view.css">
-
-    <!-- aos -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
-    <!-- 
-    -- font awesome cdn 
-    -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kieke Fotografie</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Header -->
+  <header class="header">
+    <div class="a"><img src="image/logoKiekeFotografie-e1460817748238 1.png" alt=""></div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Prices</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <button class="btn-orange">Get Started</button>
+  </header>
 
-    <!-- 
-    -- Hero section start 
-    -->
-    
-    <section class="hero-container">
-        <div class="hero mxw" data-aos="fade-up">
-            <nav>
-                <ul id="navmenu">
-                    <li><a class="active-link" href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Newsletter</a></li>
-                    <li>
-                        <a href="/">
-                            <img class="nav-logo" src="images/Logo (1).png" alt="Logo">
-                        </a>
-                       
-                    </li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li class="initial"><i id="closenav" class="fa-solid fa-xmark"></i></li>
-                    
-                </ul>
-            </nav>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>CAPTURING<br> MOMENTS <span class="highlight">IN</span> <br> TIME</h1>
+      <div class="line"></div>
+      <p>A Glimpse into the Past, a Snapshot of the Present.</p>
+      <div class="buttons">
+        <button class="btn-orange">Get Started</button>
+        
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="image/Rectangle 32.png" alt="Baby">
+    </div>
+  </section>
 
-            <div class="mobile">
-                <i id="menubar" class="fa-solid fa-bars"></i>
-            </div>
+
+ <!-- About Us Section -->
+<section class="about-section">
+    <div class="about-container">
+      <div class="about-images-custom">
+        <div class="left-img">
+          <img src="image/Rectangle 5.png" alt="Couple">
         </div>
-
-        <div class="hero_text mxw">
-            <h1>Discover Extraordinary <br> Comfort in Hotels</h1>
+        <div class="right-imgs">
+          <img src="image/Rectangle 6.png" alt="Girl">
+          <img src="image/Rectangle 7.png" alt="Lady">
         </div>
+      </div>
+      <div class="about-text">
+        <h4>— About Us</h4>
+        <h2>We Are Very <span>Skilled</span> In <span>Photography</span></h2>
+        <p>
+            Hi, I'm Angelique and photography is my passion! My father passed on the “photographer virus” to me. From analogue to digital. I have taken a number of courses and workshops and, above all, practiced a lot! My children are now used to modeling. Perhaps that is where the penchant for taking photos of children comes from. The pure appearance and enthusiasm of children. It's always fun!
+                <br><br>
+                “Photography is the art of frozen time… the ability to store emotions and feelings within a frame.”
+        </p>
+        <button class="btn-orange">See Our Portfolio</button>
+      </div>
+    </div>
+  </section>
 
-        <div class="slider">
-            <span></span>
-            <span class="active-slider"></span>
-            <span></span>
-        </div>
+
+
+  <section class="portfolio-section">
+    <h2 class="portfolio-title">Our <span>Portfolio</span></h2>
+    <div  class="portfolio-filters">
+        <button class="filter-btn">All</button>
+      <button class="filter-btn active">Childrens</button>
+      <button class="filter-btn">Portraits</button>
+      <button class="filter-btn">Family</button>
+      <button class="filter-btn">Other Photography</button>
+    </div> 
+    <section class="custom-portfolio">
+      <div class="grid-container">
+        <div class="item item1"><img src="image/Rectangle 11.png" alt="Image 1"></div>
+        <div class="item item2"><img src="image/Rectangle 12.png" alt="Image 2"></div>
+        <div class="item item3"><img src="image/Rectangle 13.png" alt="Image 3"></div>
+        <div class="item item4"><img src="image/Rectangle 14.png" alt="Image 4"></div>
+        <div class="item item5"><img src="image/Rectangle 15.png" alt="Image 5"></div>
+        <div class="item item6"><img src="image/Rectangle 17.png" alt="Image 6"></div>
+        <div class="item item7"><img src="image/Rectangle 16.png" alt="Image 7"></div>
+        <div class="item item8"><img src="image/Rectangle 18.png" alt="Image 8"></div>
+        <div class="item item9"><img src="image/Rectangle 19.png" alt="Image 9"></div>
+        <div class="item item10"><img src="image/Rectangle 20.png" alt="Image 10"></div>
+      </div>
     </section>
-    <!-- 
-    -- Hero section end 
-    -->
+  </section>
 
 
-    <!-- 
-    -- book a room section start
-    -->
-    <section class="book_room mxw" data-aos="fade-up">
-        <div class="br_title">
-            <h2>Book a Room</h2>
-            <p>Discover the perfect space for you!</p>
+
+
+
+
+
+  <section class="pricing-section">
+    <h2 class="section-title">Prices</h2>
+    <div class="pricing-cards">
+      
+      <div class="pricing-card">
+        <h3>Children's photography/<br>family/pregnancy/loveshoot</h3>
+        <p>
+          The price for this is <strong>€50.00</strong> (incl. VAT)<br>
+          and takes approximately one<br>hour.For that you get 10/15 edited <br>
+          digital files in large format.
+
+        </p>
+        <div class="price">€50.00</div>
+        <button>Get Purchase</button>
+      </div>
+  
+      <div class="pricing-card highlighted">
+        <h3>Lifestyle Photography</h3>
+        <p>
+          Lifestyle photography takes place at<br>
+          home in a relaxed setting. The price <br>
+          for this depends on how long we take. <br>
+          Inquire about the possibilities.
+        </p>
+        <div class="price">€50.00</div>
+        <button>Get Purchase</button>
+      </div>
+  
+      <div class="pricing-card">
+        <h3>Portrait Photography</h3>
+        <br>
+        <p>
+          Portrait photography and girlfriend<br>
+          shoots are also possible.
+        </p>
+        <br><br>
+        <div class="price">€50.00</div>
+        <button>Get Purchase</button>
+      </div>
+  
+    </div>
+  </section>
+
+
+
+
+
+  <section class="testimonial-section">
+    <div class="testimonial-container">
+  
+      <div class="testimonial-text">
+        <span class="section-tag">— Testimonials</span>
+        <h2>What Our Clients Say</h2>
+        <p class="description">
+          This photography website is a true gem for anyone who appreciates artistry and storytelling through the lens. The images are awe-inspiring, and the website provides an engaging and immersive experience. With a few minor enhancements in user-friendliness and performance, it could become an even more exceptional platform for showcasing photography talent.
+        </p>
+  
+        <div class="testimonial-controls">
+          <button class="client-btn">
+            <img src="image/Ellipse 1.png" alt="Client" />
+            <span>Amane Indahnya</span>
+          </button>
+          <div class="arrows">
+            <button class="arrow-btn">←</button>
+            <button class="arrow-btn">→</button>
+          </div>
         </div>
+      </div>
+  
+      <div class="testimonial-image">
+        <img src="image/Rectangle 24.png" alt="Client Image" />
+      </div>
+  
+    </div>
+  </section>
 
-        <div class="booking">
-            <div class="booking_box">
-                <strong>Date</strong>
-                <div class="get_booking">
-                    <img src="./images/Frame.png" alt="Date">
-                    <span>Check Available</span>
-                </div>
+
+
+
+
+ <section class="instagram-section">
+    <div class="section-header">
+      <h2>Instagram Feed</h2>
+      <button class="join-btn">Join Now</button>
+    </div>
+    <div class="insta-grid">
+      <img src="image/Rectangle 40.png" alt="Instagram Image 1" class="img1" />
+      <img src="image/Rectangle 36.png" alt="Instagram Image 2" class="img2" />
+      <img src="image/Rectangle 37.png" alt="Instagram Image 3" class="img3" />
+      <img src="image/Rectangle 39.png" alt="Instagram Image 4" class="img4" />
+      <img src="image/Rectangle 38.png" alt="Instagram Image 5" class="img5" />
+      <img src="image/Rectangle 35.png" alt="Instagram Image 6" class="img6" />
+    </div>
+  </section>
+
+
+
+
+  <section class="question-area">
+    <div class="wrapper">
+      <!-- Left: Form -->
+      <div class="left">
+        <h2>Have A Question?</h2>
+        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <form>
+          <div class="input-group">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" />
+          </div>
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" />
+          </div>
+          <div class="input-group">
+            <label>Message</label>
+            <textarea placeholder="Write your message"></textarea>
+          </div>
+        </form>
+      </div>
+  
+      <div class="right">
+        <h3>Get In Touch!</h3>
+        <p>We love to hear from you! Our friendly Team is always here to chat.</p><br><br>
+        <div class="info">
+          <div class="info-item">
+            <img src="image/Group 13.png" alt="location" />
+            <div>
+              <span>Location:</span>
+              <p>902 Texas St, Austin TX, 78701</p>
             </div>
-
-            <div class="booking_box">
-                <strong>Person</strong>
-                <div class="get_booking gb_two">
-                    <div class="select_bokking adults">
-                        <div class="icon">
-                            <img src="./images/Vector (1).png" alt="Person">
-                            <span>Adults</span>
-                        </div>
-                        <div class="quantity">
-                            <span>2</span>
-                            <img src="./images/Arrow 3.png" alt="Arrow Down">
-                        </div>
-                    </div>
-
-                    <div class="select_bokking childreen">
-                        <div class="icon">
-                            <img  class="child" src="./images/Vector.png" alt="Children">
-                            <span>Children</span>
-                        </div>
-                        <div class="quantity">
-                            <span>0</span>
-                            <img src="./images/Arrow 3.png" alt="Arrow Down">
-                        </div>
-                    </div>
-                </div>
+          </div><br>
+          <div class="info-item">
+            <img src="image/Vector.png" alt="phone" />
+            <div>
+              <span>Phone:</span>
+              <p>+1 965 666 4017</p>
             </div>
-
-            <div class="book_now_btn">
-                <button>BOOK NOW</button>
+          </div><br>
+          <div class="info-item">
+            <img src="image/Group 14.png" alt="email" />
+            <div>
+              <span>Email:</span>
+              <p>support@site.com</p>
             </div>
+          </div>
         </div>
-    </section>
-    <!-- 
-    -- book a room section end
-    -->
+      </div>
+    </div>
+  </section>
 
 
-    <!-- 
-    -- facilities section start
-    -->
-    <section class="facilities" data-aos="fade-up">
-        <div class="f_img_grids mxw">
-            <div class="img_rel">
-                <img class="bigimg" src="./images/Room.png" alt="Facility">
-                <span></span>
-            </div>
-            <div class="img_rel">
-                <img src="./images/Rectangle 8.png" alt="Facility">
-                <span>Dining</span>
-            </div>
-            <div class="img_rel">
-                <img src="./images/Rectangle 9.png" alt="Facility">
-                <span>Conferences & Meetings</span>
-            </div>
-            <div class="img_rel">
-                <img src="./images/Rectangle 10.png" alt="Facility">
-                <span>Service & Facilities</span>
-            </div>
-            <div class="img_rel">
-                <img src="./images/Rectangle 11.png" alt="Facility">
-                <span>Wedding Package</span>
-            </div>
-        </div>
-    </section>
-    <!-- 
-    -- facilities section end
-    -->
+  <div class="footer-end">
+    <!-- Left Image -->
+    <div class="footer-left">
+      <img src="image/logoKiekeFotografie-e1460817748238 2.png" alt="logo" />
+    </div>
+  
+    <!-- Center Links -->
+    <div class="footer-center">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+  
+    <!-- Right Round Images -->
+    <div class="footer-right">
+      <img src="image/Vector (1).png" alt="Social 1" />
+      <img src="image/Group 7.png" alt="Social 2" />
+      <img src="image/Vector (2).png" alt="Social 3" />
+    </div>
+  </div>
 
-
-    <!-- 
-    -- offer section start
-    -->
-    <section class="offer mxw" data-aos="fade-up">
-        <div class="offer_head">
-            <span>Special Offers</span>
-            <div class="flex">
-                <h3>Best offer of the month</h3>
-                <a href="#" class="offer_view">View all</a>
-            </div>
-            <p>Experience Fantastic Benefits and Obtain Better Rates When You Make a Direct Booking on Our Official Website</p>
-        </div>
-
-        <div class="offer_grid">
-            <div class="single_card">
-                <div class="image_wrapper"><img src="./images/Rectangle 13.png" alt="Offer"></div>
-                <span class="category">Room</span>
-                <div class="card_flex">
-                    <h4>Honeymoon</h4>
-                    <div class="user">
-                        <img src="./images/Vector (1).png" alt="Person">
-                        <span>2</span>
-                    </div>
-                </div>
-                <p>Indulge in a Memorable One-Time Romantic Dinner for Two</p>
-                <div class="pricing">
-                    <strong>$699 <span>/night</span></strong>
-                </div>
-            </div>
-
-            <div class="single_card">
-                <div class="image_wrapper"><img src="./images/Rectangle 13 (1).png" alt="Offer"></div>
-                <span class="category">Room</span>
-                <div class="card_flex">
-                    <h4>Meetings</h4>
-                    <div class="user">
-                        <img src="./images/Vector (1).png" alt="Person">
-                        <span>30</span>
-                    </div>
-                </div>
-                <p>Experience an Exclusively Private Environment to Boost Your Productivity</p>
-                <div class="pricing">
-                    <strong>$999 <span>/night</span></strong>
-                </div>
-            </div>
-
-            <div class="single_card">
-                <div class="image_wrapper"><img src="./images/Rectangle 13 (2).png" alt="Offer"></div>
-                <span class="category">Dining</span>
-                <div class="card_flex">
-                    <h4>Romantic Dining</h4>
-                    <div class="user">
-                        <img src="./images/Vector (1).png" alt="Person">
-                        <span>2</span>
-                    </div>
-                </div>
-                <p>Indulge in a Memorable One-Time Romantic Dinner for Two</p>
-                <div class="pricing">
-                    <strong>$499 <span>/table</span></strong>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 
-    -- offer section end
-    -->
-
-    <!-- 
-    -- footer section start
-    -->
-    <footer>
-        <div class="footer_content mxw">
-            <div class="foot_flex">
-                <div class="newsletter">
-                    <h5>Newsletter & Special Promo</h5>
-                    <form class="subscribe">
-                        <input type="text" placeholder="Enter your email here" required>
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
-                <div class="footer_links">
-                    <div class="footer_logo">
-                        <img src="./images/Logo.png" alt="Logo">
-                    </div>
-                    <div class="links_flex">
-                        <div class="links">
-                            <ul>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Location</a></li>
-                            </ul>
-                        </div>
-                        <div class="links">
-                            <ul>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Term of Use</a></li>
-                                <li><a href="#">Privacy Police</a></li>
-                            </ul>
-                        </div>
-                        <div class="links">
-                            <ul>
-                                <li><a href="#">Services & Facilities</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">How to book</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="copywrite">
-                <hr class="cp_write_line">
-                <span>© Copyright Booking Hotels. All right reserved.</span>
-            </div>
-        </div>
-    </footer>
-    <!-- 
-    -- footer section end
-    -->
-
-
-    <!-- 
-    -- link custom js file 
-    -->
-    <script src="./app.js"></script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        offset: 300,
-        duration: 1000,
-      });
-    </script>
-    
 </body>
 </html>
